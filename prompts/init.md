@@ -1,3 +1,7 @@
+# I'm sure about this one. might not be necessary.
+
+
+
 Create a monorepo in the current directory with the following specifications:
 
 ## Tooling
@@ -9,11 +13,11 @@ Create a monorepo in the current directory with the following specifications:
 ## Repository Structure
 
 apps/
-core/      # Node.js + Express API
-web/        # React + Tailwind CSS frontend
-mobile/     # Empty placeholder (gitkeep only)
+core/             # Node.js + Express API
+web/              # React + Tailwind CSS frontend
+notifier_app/     # React Native mobile app
 packages/
-tsconfig/   # Shared TypeScript configs
+tsconfig/         # Shared TypeScript configs
 
 
 ## App Specifications
@@ -32,8 +36,8 @@ tsconfig/   # Shared TypeScript configs
 - A minimal landing page that fetches and displays the core health status
 - tsconfig path alias: `@/*` → `src/*`
 
-### apps/mobile
-- Contains only a `.gitkeep` file — no package.json, no dependencies
+### apps/notifier_app
+- keep it as it is.
 
 ## Docker Requirements
 Produce **three** Dockerfile files and **one** docker-compose file:
