@@ -60,5 +60,9 @@ UI:
 
 
 
-
+    Design Style:
+        - Soft UI / soft minimalism: muted background, gentle contrast, rounded cards, calm spacing.
+        - Card-based dashboard design: hero card, metric cards, repeated activity cards.
+        - Warm neutral editorial palette: cream, tan, brown text, with a muted green accent.
+        - iOS-inspired mobile layout: large rounded surfaces, clean typography hierarchy, generous padding.
 
