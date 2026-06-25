@@ -1,0 +1,6 @@
+{
+  "name": "Ping - Notification Platform",
+  "description": "A notification platform for creating events, subscribing to triggers, and sending real-time alerts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
